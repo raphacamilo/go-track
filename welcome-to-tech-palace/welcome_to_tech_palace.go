@@ -12,6 +12,7 @@ func WelcomeMessage(customer string) string {
 func AddBorder(welcomeMsg string, numStarsPerLine int) string {
 	starsString := strings.Repeat("*", numStarsPerLine)
 
+	// a
 	return starsString + "\n" + welcomeMsg + "\n" + starsString
 }
 
